@@ -1,0 +1,41 @@
+Steps to run the program:
+
+1.Instruction to Run :
+	Run the project through command line 
+	• Save the executable jar file -> securityanalysis.jar on the machine.
+	• Open the command prompt – cmd for windows.
+	• Go to the location of directory where the project jar file is saved. Example: cd  C:\Users\<Username>\Downloads if the file is present in Downloads 
+	• On the command prompt (folder where the jar file is located) type the following command 
+	
+	Java –jar securityanalyis.jar “<IOCS>” “<IOCS>” 
+	e.g
+	Java -jar securityanalysis.jar "54.235.83.160" "90.156.201.27" 
+
+	•	On the command line you can see the progress of the running code.
+	•	While code is executing it generates the HTML file.
+	•	Once the code it executed launch the generated HTML file by using your default browser.
+	•	The output of the code you see in the web browser 
+
+2. Test Cases of code for your reference.
+I have also attached the screenshot of output of below test cases.
+
+1) Java -jar securityanalysis.jar "61.153.106.24" 
+Result: output1.png
+
+2) Java -jar securityanalysis.jar "54.235.83.160" "90.156.201.27" 
+Result: output2.png
+
+3) Java -jar securityanalysis.jar "https://gumblar.cn/" "https://www.google.com" 
+Result: output3.png
+
+4) Java -jar securityanalysis.jar "027.ru" "80.82.64.116" "https://facebook.com" 
+Result: output4.png
+
+5) Java -jar securityanalysis.jar "443"
+Result: output5.png
+ 
+6) Java -jar securityanalysis.jar "118.123.119.14" "https://www.yahoo.com"  "027.ru" "34770"
+Result: output6.png
+
+7) Java –jar securityanalyis.jar 
+Result: output7.png
